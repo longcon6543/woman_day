@@ -22,8 +22,24 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   
   <style>
-    .large-img {
+    .image-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .image-container img {
       width: 100%;
+      height: auto;
+    }
+
+    .image-container .caption {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .large-img-container img {
+      width: 120%; /* 20% larger than normal images */
       height: auto;
     }
   </style>
@@ -70,77 +86,47 @@
     <img class="banner__image" src="assets/images/banner2.jpg" alt="">
   </section>
 
-  <!-- Section containing 8 images -->
+  <!-- Section containing 7 images with captions -->
   <section class="beautiful-women">
     <div class="container text-center">
-      <div class="row women-right align-items-center">
-        <div class="col-md-4 col-12">
-          <img class="wow heartBeat" src="/assets/images/z3221055411778_9c3847434426a5983db3e7fd8a093fa6.jpg" alt="Nguyễn Thị Trang H" />
+      <!-- First 6 images -->
+      <div class="row">
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/z3221055411778_9c3847434426a5983db3e7fd8a093fa6.jpg" alt="Nguyễn Thị Trang H" />
+          <div class="caption">Chúc bạn mãi xinh đẹp và hạnh phúc!</div>
         </div>
-        <div class="col-md-8 col-12">
-          <h2 class="wow bounceInLeft">Đỗ Thị Thúy</h2>
-          <p class="wow bounceInRight">
-            Gửi cô nàng Thúy của team QA nhân dịp ngày Quốc tế phụ nữ mồng 8 tháng 3, chúc cho bạn mãi xinh đẹp, luôn là bông hoa thơm trong vườn hoa ngát hương.
-          </p>
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/TrangHNT.jpeg" alt="Nguyễn Thị Trang H" />
+          <div class="caption">Chúc chị luôn thành công trong công việc!</div>
+        </div>
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/unnamed.jpg" alt="Đinh Thị Mỹ Nhật" />
+          <div class="caption">Chúc chị ngày càng tỏa sáng!</div>
         </div>
       </div>
 
       <div class="row my-5">
-        <div class="col-md-4 col-12 wow fadeInLeft">
-          <div class="card">
-            <img src="./assets/images/TrangHNT.jpeg" class="card-img-top" alt="Nguyễn Thị Trang H" />
-            <div class="card-body">
-              <h5 class="card-title">Nguyễn Thị Trang H</h5>
-              <p class="card-text">
-                Chúc chị sẽ ngày càng xinh đẹp, công việc thuận lợi, gặp nhiều may mắn. Luôn hạnh phúc không chỉ riêng ngày hôm nay mà còn 364 ngày còn lại cũng vậy.
-              </p>
-            </div>
-          </div>
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/Image from iOS (1).jpg" alt="Nguyễn Minh Hạnh" />
+          <div class="caption">Chúc chị luôn hạnh phúc và đạt nhiều thành tựu!</div>
         </div>
-        <div class="col-md-4 col-12">
-          <div class="card">
-            <img src="./assets/images/unnamed.jpg" class="card-img-top" alt="Đinh Thị Mỹ Nhật" />
-            <div class="card-body">
-              <h5 class="card-title">Đinh Thị Mỹ Nhật</h5>
-              <p class="card-text">
-                Nhân ngày Quốc tế phụ nữ em chúc chị ngày càng xinh đẹp, có nhiều niềm vui trong cuộc sống và công việc. <br />
-                Happy Women's Day!
-              </p>
-            </div>
-          </div>
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/z3235599973446_0df213fa3fa10fbfeee7f7e90ac17fca.jpg" alt="Nguyễn Hồng Trang" />
+          <div class="caption">Chúc chị luôn tràn đầy năng lượng!</div>
         </div>
-        <div class="col-md-4 col-12 girl wow fadeInRight">
-          <div class="card">
-            <img src="./assets/images/Image from iOS (1).jpg" class="card-img-top" alt="Nguyễn Minh Hạnh" />
-            <div class="card-body">
-              <h5 class="card-title">Nguyễn Minh Hạnh</h5>
-              <p class="card-text">
-                Gửi chị Hạnh team BrSE nhân ngày Quốc tế Phụ nữ 8/3! Em chúc chị luôn hạnh phúc, xinh đẹp, tự tin, luôn hết mình để thực hiện ước mơ đang dang dở nha.
-              </p>
-            </div>
-          </div>
+        <div class="col-md-4 col-12 image-container">
+          <img src="/assets/images/nguyenthihuong.jpg" alt="Nguyễn Thị Hương" />
+          <div class="caption">Chúc chị có một ngày thật đặc biệt!</div>
         </div>
       </div>
 
-      <div class="row women-center">
-        <div class="col-md-4 col-12">
-          <img class="wow heartBeat" src="/assets/images/z3235599973446_0df213fa3fa10fbfeee7f7e90ac17fca.jpg" alt="Nguyễn Hồng Trang" />
-        </div>
-        <div class="col-md-4 col-12">
-          <img class="wow heartBeat" src="/assets/images/nguyenthihuong.jpg" alt="Nguyễn Thị Hương" />
-        </div>
-        <div class="col-md-4 col-12">
-          <img class="wow heartBeat" src="/assets/images/dothily.png" alt="Đỗ Thị Ly" />
-        </div>
-      </div>
-
-      <!-- Enlarged last image -->
+      <!-- Larger last image -->
       <div class="row mt-5">
-        <div class="col-12">
-          <img class="wow heartBeat large-img" src="/assets/images/hoangthithanh.jpg" alt="Hoàng Thị Thanh" />
+        <div class="col-12 large-img-container">
+          <img src="/assets/images/hoangthithanh.jpg" alt="Hoàng Thị Thanh" />
+          <div class="caption">Chúc bạn luôn thành công và hạnh phúc!</div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -175,4 +161,3 @@
 </body>
 
 </html>
-
